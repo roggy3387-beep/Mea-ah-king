@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>1.1.1.1</string>
+					<string>1.0.0.1</string>
+					<string>8.8.8.8</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://cloudflare-dns.com/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>King DNS optimized for weak signal areas and anti-lag.</string>
+			<key>PayloadDisplayName</key>
+			<string>King DNS 🍎</string>
+			<key>PayloadIdentifier</key>
+			<string>com.kingdns.apple.dns</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>E1F2A3B4-C5D6-7890-ABCD-EF0123456789</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Network configuration profile to improve stability in low signal zones.</string>
+	<key>PayloadDisplayName</key>
+	<string>King DNS 🍎</string>
+	<key>PayloadIdentifier</key>
+	<string>com.kingdns.apple</string>
+	<key>PayloadOrganization</key>
+	<string>King DNS </string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F2E3D4C5-B6A7-8901-2345-6789ABCDEF03</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
